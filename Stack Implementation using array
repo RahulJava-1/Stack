@@ -81,10 +81,10 @@ void display()
     {
         printf("\n The element in stack are...");
         for ( i = top; i >=0; i--)
-        
+        {
             printf("\n %d",stack[i]);
-        
-        printf("\n Press next choice");
+        }
+         printf("\n Press next choice");
     }
     else
     {
